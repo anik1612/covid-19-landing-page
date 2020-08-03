@@ -1,0 +1,60 @@
+/* ==============================
+            common css
+============================== */
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* ==============================
+        header-area css
+============================== */
+.header-area {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) -29.64%, #FFF8F8 45.66%, #FFF8F8 45.66%);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #035755;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #d6595d;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #FB4C47;
+    font-weight: 600;
+}
+
+.custom-button {
+    border: 1px solid #FF383D;
+    border-radius: 10px;
+    padding: 5px 20px !important;
+    display: inline-block;
+}
+
+.custom-button:hover {
+    background: #d6595d;
+    color: #ffffff !important;
+}
+
+.help-btn {
+    background-color: #FB4C47;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 13px 30px !important;
+}
+
+.header-text-part {
+    line-height: 40px;
+}
+
+.header-text-part h3 {
+    font-weight: 600;
+}
