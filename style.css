@@ -2,6 +2,7 @@
             common css
 ============================== */
 body {
+    background: #ffffff;
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -9,6 +10,9 @@ img {
     width: 100%;
 }
 
+section{
+    padding-bottom: 70px;
+}
 
 /* ==============================
         header-area css
@@ -48,7 +52,7 @@ img {
     background-color: #FB4C47;
     color: #ffffff;
     font-weight: 500;
-    padding: 13px 30px !important;
+    padding: 5px 30px !important;
 }
 
 .header-text-part {
@@ -57,4 +61,23 @@ img {
 
 .header-text-part h3 {
     font-weight: 600;
+}
+
+
+/* ==============================
+      about-us-section css
+============================== */
+.about-us-text h2{
+    color: #035755;
+    font-weight: 600;
+}
+
+.about-us-text{
+    line-height: 33px;
+}
+
+.about-us-section{
+    background-image:url('/images/about-us-bg-01.png'), url('/images/about-us-bg-02.png');
+	background-position: 100% 70%, 95% 100%;
+	background-repeat:no-repeat, no-repeat;
 }
